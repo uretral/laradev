@@ -77,6 +77,7 @@
                         <th>Action</th>
                     </tr>
 
+
                     @if(old('fields'))
                         @foreach(old('fields') as $index => $field)
                             <tr>
