@@ -78,6 +78,40 @@
                     </tr>
 
 
+                    @php
+                        $uFields = array(
+                            array('name' => 'alias','type' => 'string'),
+                            array('name' => 'parent','type' => 'integer'),
+                            array('name' => 'name','type' => 'string'),
+                            array('name' => 'intro_img','type' => 'string'),
+                            array('name' => 'intro','type' => 'text'),
+                            array('name' => 'detail_img','type' => 'string'),
+                            array('name' => 'detail','type' => 'text'),
+                            array('name' => 'seo_title','type' => 'text'),
+                            array('name' => 'seo_desc','type' => 'text'),
+                            array('name' => 'seo_key','type' => 'text'),
+                        )
+
+                    @endphp
+
+                    @foreach($uFields as $k => $uField)
+                        <tr>
+                            <td>
+                                <input type="text" readonly  name="fields[{{$k+1}}][name]" class="form-control"  value="{{$uField['name']}}" />
+                            </td>
+                            <td>
+                                <input type="text" readonly name="fields[{{$k+1}}][type]" class="form-control"  value="{{$uField['type']}}" />
+                            </td>
+                            <td><input type="checkbox" name="fields[{{$k+1}}][nullable]" checked /></td>
+                            <td>
+                                <input type="text" readonly name="fields[{{$k+1}}][key]" class="form-control"  value="" />
+                            </td>
+                            <td><input type="text" class="form-control" placeholder="default value" name="fields[{{$k+1}}][default]" value=""/></td>
+                            <td><input type="text" class="form-control" placeholder="comment" name="fields[{{$k+1}}][comment]" value="" /></td>
+                            <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
+                        </tr>
+                    @endforeach
+
                     @if(old('fields'))
                         @foreach(old('fields') as $index => $field)
                             <tr>
