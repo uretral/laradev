@@ -7,3 +7,4 @@ $u = \App\Models\Test::all()->first()->toArray();
 
 
 <img src="{{asset('storage/'.$u['intro_img'])}}" alt="">
+{!! $u['detail'] !!}

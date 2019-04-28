@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::any('/attach', 'ImageController@attach');
 Route::get('/', function () {
     return view('welcome');
 });

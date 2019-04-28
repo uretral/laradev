@@ -41,6 +41,7 @@ use Symfony\Component\HttpFoundation\Response;
  * @method Field\Slider         slider($column, $label = '')
  * @method Field\Map            map($latitude, $longitude, $label = '')
  * @method Field\Editor         editor($column, $label = '')
+ * @method Field\CKEditor       ckeditor($column, $label = '')
  * @method Field\File           file($column, $label = '')
  * @method Field\Image          image($column, $label = '')
  * @method Field\Date           date($column, $label = '')
@@ -1503,6 +1504,7 @@ class Form implements Renderable
             'divide'         => Field\Divide::class,
             'embeds'         => Field\Embeds::class,
             'editor'         => Field\Editor::class,
+            'ckeditor'       => Field\CKEditor::class,
             'email'          => Field\Email::class,
             'file'           => Field\File::class,
             'hasMany'        => Field\HasMany::class,

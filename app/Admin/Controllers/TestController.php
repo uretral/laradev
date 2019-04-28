@@ -83,9 +83,7 @@ class TestController extends Controller
 
         $grid->id('ID');
         $grid->name('Название');
-        $grid->intro_img('Превью');
-//        $grid->created_at('Created at');
-//        $grid->updated_at('Updated at');
+        //$grid->intro_img('Превью');
 
         return $grid;
     }
@@ -128,7 +126,7 @@ class TestController extends Controller
         });
         $form->tab('Контент', function($form){
             $form->image('detail_img','Картинка');
-            $form->textarea('detail','Текст');
+            $form->ckeditor('detail','Текст');
         });
         $form->tab('SEO', function($form){
             $form->textarea('seo_title','seo title');
@@ -137,8 +135,8 @@ class TestController extends Controller
 
         });
 
-//        $form->display('Created at');
-//        $form->display('Updated at');
+        $form->display('Created at');
+        $form->display('Updated at');
 
         return $form;
     }
