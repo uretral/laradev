@@ -96,17 +96,17 @@
                     @foreach($uFields as $k => $uField)
                         <tr>
                             <td>
-                                <input type="text" readonly  name="fields[{{$k+1}}][name]" class="form-control"  value="{{$uField['name']}}" />
+                                <input type="text" readonly  name="fields[{{$k}}][name]" class="form-control"  value="{{$uField['name']}}" />
                             </td>
                             <td>
-                                <input type="text" readonly name="fields[{{$k+1}}][type]" class="form-control"  value="{{$uField['type']}}" />
+                                <input type="text" readonly name="fields[{{$k}}][type]" class="form-control"  value="{{$uField['type']}}" />
                             </td>
-                            <td><input type="checkbox" name="fields[{{$k+1}}][nullable]" checked /></td>
+                            <td><input type="checkbox" name="fields[{{$k}}][nullable]" checked /></td>
                             <td>
-                                <input type="text" readonly name="fields[{{$k+1}}][key]" class="form-control"  value="" />
+                                <input type="text" readonly name="fields[{{$k}}][key]" class="form-control"  value="" />
                             </td>
-                            <td><input type="text" class="form-control" placeholder="default value" name="fields[{{$k+1}}][default]" value=""/></td>
-                            <td><input type="text" class="form-control" placeholder="comment" name="fields[{{$k+1}}][comment]" value="" /></td>
+                            <td><input type="text" class="form-control" placeholder="default value" name="fields[{{$k}}][default]" value=""/></td>
+                            <td><input type="text" class="form-control" placeholder="comment" name="fields[{{$k}}][comment]" value="" /></td>
                             <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
                         </tr>
                     @endforeach
@@ -141,6 +141,7 @@
                     @endif
                     </tbody>
                 </table>
+
 
                 <hr style="margin-top: 0;"/>
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace DummyNamespace;
+namespace App\Admin\Controllers;
 
-use DummyModelNamespace;
+use App\Models\Test;
 use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Form;
@@ -10,7 +10,7 @@ use Encore\Admin\Grid;
 use Encore\Admin\Layout\Content;
 use Encore\Admin\Show;
 
-class DummyClass extends Controller
+class TestController extends Controller
 {
     use HasResourceActions;
 
@@ -79,11 +79,13 @@ class DummyClass extends Controller
      */
     protected function grid()
     {
-        $grid = new Grid(new DummyModel);
+        $grid = new Grid(new Test);
 
         $grid->id('ID');
         $grid->name('Название');
-        //$grid->intro_img('Превью');
+        $grid->intro_img('Превью');
+//        $grid->created_at('Created at');
+//        $grid->updated_at('Updated at');
 
         return $grid;
     }
@@ -96,7 +98,7 @@ class DummyClass extends Controller
      */
     protected function detail($id)
     {
-        $show = new Show(DummyModel::findOrFail($id));
+        $show = new Show(Test::findOrFail($id));
 
         $show->id('ID');
         $show->created_at('Created at');
@@ -112,7 +114,7 @@ class DummyClass extends Controller
      */
     protected function form()
     {
-        $form = new Form(new DummyModel);
+        $form = new Form(new Test);
 
         $form->tab('Настройки', function($form){
             $form->display('ID');
@@ -135,10 +137,8 @@ class DummyClass extends Controller
 
         });
 
-
-
-        $form->display('Created at');
-        $form->display('Updated at');
+//        $form->display('Created at');
+//        $form->display('Updated at');
 
         return $form;
     }
