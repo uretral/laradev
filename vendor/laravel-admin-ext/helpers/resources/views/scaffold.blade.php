@@ -91,9 +91,8 @@
                             array('name' => 'seo_desc','type' => 'text'),
                             array('name' => 'seo_key','type' => 'text'),
                         )
-
                     @endphp
-
+                    @if(!old('fields'))
                     @foreach($uFields as $k => $uField)
                         <tr>
                             <td>
@@ -111,7 +110,7 @@
                             <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
                         </tr>
                     @endforeach
-
+                    @endif
                     @if(old('fields'))
                         @foreach(old('fields') as $index => $field)
                             <tr>
@@ -139,31 +138,6 @@
                                 <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
                             </tr>
                         @endforeach
-                    @else
-                    <tr>
-                        <td>
-                            <input type="text" name="fields[0][name]" class="form-control" placeholder="field name" />
-                        </td>
-                        <td>
-                            <select style="width: 200px" name="fields[0][type]">
-                                @foreach($dbTypes as $type)
-                                    <option value="{{ $type }}">{{$type}}</option>
-                                @endforeach
-                            </select>
-                        </td>
-                        <td><input type="checkbox" name="fields[0][nullable]" /></td>
-                        <td>
-                            <select style="width: 150px" name="fields[0][key]">
-                                {{--<option value="primary">Primary</option>--}}
-                                <option value="" selected>NULL</option>
-                                <option value="unique">Unique</option>
-                                <option value="index">Index</option>
-                            </select>
-                        </td>
-                        <td><input type="text" class="form-control" placeholder="default value" name="fields[0][default]"></td>
-                        <td><input type="text" class="form-control" placeholder="comment" name="fields[0][comment]"></td>
-                        <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
-                    </tr>
                     @endif
                     </tbody>
                 </table>
