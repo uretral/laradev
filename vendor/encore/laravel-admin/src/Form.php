@@ -26,6 +26,8 @@ use Symfony\Component\HttpFoundation\Response;
  * Class Form.
  *
  * @method Field\Text           text($column, $label = '')
+ * @method Field\Alias          alias($column, $label = '')
+ * @method Field\Sortable       sortable($column, $label = '')
  * @method Field\Checkbox       checkbox($column, $label = '')
  * @method Field\Radio          radio($column, $label = '')
  * @method Field\Select         select($column, $label = '')
@@ -286,6 +288,7 @@ class Form implements Renderable
 
         return $this;
     }
+
 
     /**
      * Use tab to split form.
@@ -1489,6 +1492,8 @@ class Form implements Renderable
     public static function registerBuiltinFields()
     {
         $map = [
+            'alias'          => Field\Alias::class,
+            'sortable'       => Field\Sortable::class,
             'button'         => Field\Button::class,
             'checkbox'       => Field\Checkbox::class,
             'color'          => Field\Color::class,
@@ -1564,7 +1569,7 @@ class Form implements Renderable
      *
      * @return void
      */
-    public static function alias($field, $alias)
+    public static function aliass($field, $alias)
     {
         static::$fieldAlias[$alias] = $field;
     }

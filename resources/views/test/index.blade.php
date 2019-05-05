@@ -1,10 +1,16 @@
-@php
-$u = \App\Models\Test::all()->first()->toArray();
-@endphp
-@dump($u)
+{{--@php--}}
+{{--$u = \App\Models\Test::all()->first()->toArray();--}}
+{{--@endphp--}}
+{{--@dump($u)--}}
 
-@dump(asset('tt'))
+@dump($rt)
 
 
-<img src="{{asset('storage/'.$u['intro_img'])}}" alt="">
-{!! $u['detail'] !!}
+{{--@dump(app('request')->query())--}}
+
+
+{{--<img src="{{asset('storage/'.$u['intro_img'])}}" alt="">--}}
+{{--{!! $u['detail'] !!}--}}
+
+
+ddddddddddddddddddddddddd

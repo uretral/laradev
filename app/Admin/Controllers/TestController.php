@@ -116,11 +116,11 @@ class TestController extends Controller
 
         $form->tab('Настройки', function($form){
             $form->display('ID');
-            $form->text('alias');
+            $form->alias('alias');
 //            $form->select('parent');
         });
         $form->tab('Превью', function($form){
-            $form->text('name','Название');
+            $form->text('name','Название')->attribute('rel','alias');
             $form->image('intro_img','Иконка');
             $form->textarea('intro','Интро текст');
         });

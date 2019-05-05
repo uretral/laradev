@@ -116,17 +116,17 @@ class DummyClass extends Controller
 
         $form->tab('Настройки', function($form){
             $form->display('ID');
-            $form->text('alias');
+            $form->alias('alias');
 //            $form->select('parent');
         });
         $form->tab('Превью', function($form){
-            $form->text('name','Название');
+            $form->text('name','Название')->attribute('rel','alias');
             $form->image('intro_img','Иконка');
             $form->textarea('intro','Интро текст');
         });
         $form->tab('Контент', function($form){
             $form->image('detail_img','Картинка');
-            $form->textarea('detail','Текст');
+            $form->ckeditor('detail','Текст');
         });
         $form->tab('SEO', function($form){
             $form->textarea('seo_title','seo title');

@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b281befd-eafa-4232-8d62-5aa0fe76baef" name="Default Changelist" comment="ckeditor">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laradev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/BlockController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/BlockSampleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/CatsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/BlockSample.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/BlockTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Cats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/transliterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blocks/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/config/ide-helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/grumphp.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/resources/views/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/resources/views/meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Console/EloquentCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Console/GeneratorCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Console/MetaCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Console/ModelsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Eloquent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Generator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/IdeHelperServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Macro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/Method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Context.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Serializer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/AuthorTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/CoversTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/DeprecatedTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ExampleTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/LinkTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/MethodTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ParamTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyReadTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/PropertyWriteTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ReturnTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SeeTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SinceTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/SourceTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/ThrowsTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/UsesTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/VarTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Tag/VersionTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/src/Barryvdh/Reflection/DocBlock/Type/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/DescriptionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/CoversTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/DeprecatedTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/ExampleTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/LinkTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/MethodTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/ParamTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/ReturnTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/SeeTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/SinceTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/SourceTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/ThrowsTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/UsesTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/VarTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Tag/VersionTagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/TagTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlock/Type/CollectionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock/tests/Barryvdh/Reflection/DocBlockTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bin/composer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bin/jsonlint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bin/validate-json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/res/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.php_cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/PORTING_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/bin/compile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/bin/composer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/00-intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/01-basic-usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/02-libraries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/03-cli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/04-schema.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/05-repositories.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/06-config.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/07-community.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/aliases.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/autoloader-optimization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/custom-installers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/handling-private-packages-with-satis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/http-basic-authentication.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/plugins.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/scripts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/troubleshooting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/vendor-binaries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/articles/versions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/dev/DefaultPolicy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/how-to-install-composer-programmatically.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/how-to-install-untrusted-packages-safely.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/which-version-numbering-system-does-composer-itself-use.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/why-are-unbound-version-constraints-a-bad-idea.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/why-are-version-constraints-combining-comparisons-and-wildcards-a-bad-idea.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/faqs/why-can't-composer-load-repositories-recursively.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/fixtures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-plain/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/bar/baz$923363b3c22e73abb2e3fd891c8156dd4d0821a97fd3e428bc910833e3e46dbe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/foo/bar$4baabb3303afa3e34a4d3af18fb138e5f3b79029c1f8d9ab5b477ea15776ba0a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/gar/nix$5d210670cb46c8364c8e3fb449967b9bea558b971e5b082f330ae4f1d484c321.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/provider-active$1893a061e579543822389ecd12d791c612db0c05e22d90e9286e233cacd86ed8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/p/qux/quux$c142d1a07ca354be46b613f59f1d601923a5a00ccc5fcce50a77ecdd461eb72d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/doc/fixtures/repo-composer-with-providers/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/res/composer-repository-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/res/composer-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Autoload/AutoloadGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Autoload/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Autoload/ClassMapGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/AboutCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ArchiveCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/BaseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/BaseDependencyCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/CheckPlatformReqsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ClearCacheCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ConfigCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/CreateProjectCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/DependsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/DiagnoseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/DumpAutoloadCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ExecCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/GlobalCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/HomeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/InitCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/InstallCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/LicensesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/OutdatedCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ProhibitsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/RemoveCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/RequireCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/RunScriptCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ScriptAliasCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/SearchCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/SelfUpdateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ShowCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/StatusCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/SuggestsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/UpdateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Command/ValidateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Compiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Composer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Config/ConfigSourceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Config/JsonConfigSource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Console/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Console/HtmlOutputFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Decisions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/DefaultPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/GenericRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/InstallOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/MarkAliasInstalledOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/MarkAliasUninstalledOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/OperationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/SolverOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/UninstallOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Operation/UpdateOperation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/PolicyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Pool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Problem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Rule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Rule2Literals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleSetGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleSetIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleWatchChain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleWatchGraph.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/RuleWatchNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Solver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/SolverBugException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/SolverProblemsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/DependencyResolver/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/ArchiveDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/ChangeReportInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/DownloadManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/DownloaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/DvcsDownloaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/FileDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/FilesystemException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/FossilDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/GitDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/GzipDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/HgDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/PathDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/PearPackageExtractor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/PerforceDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/PharDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/RarDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/SvnDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/TarDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/TransportException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/VcsCapableDownloaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/VcsDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/XzDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Downloader/ZipDownloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/EventDispatcher/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/EventDispatcher/EventDispatcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/EventDispatcher/EventSubscriberInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/EventDispatcher/ScriptExecutionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Exception/NoSslException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/IO/BaseIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/IO/BufferIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/IO/ConsoleIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/IO/IOInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/IO/NullIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/BinaryInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/BinaryPresenceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/InstallationManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/InstallerEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/InstallerEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/InstallerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/LibraryInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/MetapackageInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/NoopInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/PackageEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/PackageEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/PearBinaryInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/PearInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/PluginInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/ProjectInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Installer/SuggestedPackagesReporter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Json/JsonFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Json/JsonFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Json/JsonManipulator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Json/JsonValidationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/AliasPackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ArchivableFilesFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ArchivableFilesFinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ArchiveManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ArchiverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/BaseExcludeFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ComposerExcludeFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/GitExcludeFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/HgExcludeFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/PharArchiver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Archiver/ZipArchiver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/BasePackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Comparer/Comparer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/CompletePackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/CompletePackageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Dumper/ArrayDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/LinkConstraint/EmptyConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/LinkConstraint/LinkConstraintInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/LinkConstraint/MultiConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/LinkConstraint/SpecificConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/LinkConstraint/VersionConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/ArrayLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/InvalidPackageException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/JsonLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/LoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/RootPackageLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Loader/ValidatingArrayLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Locker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Package.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/PackageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/RootAliasPackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/RootPackage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/RootPackageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Version/VersionGuesser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Version/VersionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Package/Version/VersionSelector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/Capability/Capability.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/Capability/CommandProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/Capable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/CommandEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/PluginEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/PluginInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/PluginManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/PreCommandRunEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Plugin/PreFileDownloadEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Question/StrictConfirmationQuestion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/ArrayRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/ArtifactRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/BaseRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/ComposerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/CompositeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/ConfigurableRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/FilesystemRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/InstalledArrayRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/InstalledFilesystemRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/InstalledRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/InvalidRepositoryException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/PackageRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/PathRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/BaseChannelReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/ChannelInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/ChannelReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/ChannelRest10Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/ChannelRest11Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/DependencyConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/DependencyInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/PackageDependencyParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/PackageInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Pear/ReleaseInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/PearRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/PlatformRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/RepositoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/RepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/RepositoryManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/RepositorySecurityException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/BitbucketDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/FossilDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/GitBitbucketDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/GitDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/GitHubDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/GitLabDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/HgBitbucketDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/HgDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/PerforceDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/SvnDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/VcsDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/Vcs/VcsDriverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/VcsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/VersionCacheInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/WritableArrayRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Repository/WritableRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Script/CommandEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Script/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Script/PackageEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Script/ScriptEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/SelfUpdate/Keys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/SelfUpdate/Versions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/AuthHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Bitbucket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/ComposerMirror.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/ConfigValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/ErrorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Git.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/GitHub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/GitLab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Hg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/IniHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/NoProxyPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Perforce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Platform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/ProcessExecutor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/RemoteFilesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Silencer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/SpdxLicense.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/StreamContextFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Svn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/TlsHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/Util/Url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/Composer/XdebugHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/composer/src/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Comparator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Constraint/AbstractConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Constraint/Constraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Constraint/ConstraintInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Constraint/EmptyConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Constraint/MultiConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/Semver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/semver/src/VersionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-exceptions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-licenses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/src/SpdxLicenses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/src/PhpConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/src/Process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/src/Status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/xdebug-handler/src/XdebugHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/alias.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Alias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Sortable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/MultiTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits/ModelMultiTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/BufferStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/CachingStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/DroppingStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/LimitStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/NoSeekStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Rfc7230.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UploadedFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/functions_include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/provides.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractColor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractFont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/AbstractCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/Argument.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ChecksumCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/CircleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/EllipseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ExifCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/IptcCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/LineCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/OrientateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PolygonCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PsrResponseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/RectangleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ResponseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/StreamCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Constraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/ImageException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/MissingDependencyException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotReadableException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotSupportedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotWritableException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/RuntimeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Facades/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/DemoFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/FilterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BackupCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BlurCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BrightnessCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ColorizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ContrastCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/CropCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/DestroyCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FillCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FitCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FlipCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GammaCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GetSizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GreyscaleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/HeightenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InsertCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InterlaceCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InvertCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/LimitColorsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/MaskCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/OpacityCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PickColorCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResetCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCanvasCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/RotateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/TrimCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/WidenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/CircleShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/EllipseShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/LineShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/PolygonShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/RectangleShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLeague.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLumen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BackupCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BlurCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BrightnessCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ColorizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ContrastCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/CropCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/DestroyCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ExifCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FillCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FitCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FlipCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GammaCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GetSizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GreyscaleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/HeightenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InsertCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InterlaceCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InvertCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/LimitColorsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/MaskCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/OpacityCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PickColorCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResetCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCanvasCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/RotateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/SharpenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/TrimCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/WidenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Decoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/CircleShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/EllipseShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/LineShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/PolygonShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/RectangleShape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Point.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Size.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/intervention/image/src/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/bin/validate-json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/demo/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/demo/demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/demo/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/dist/schema/json-schema-draft-03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/dist/schema/json-schema-draft-04.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/BaseConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/CollectionConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/Constraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/ConstraintInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/EnumConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/FormatConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/NumberConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/ObjectConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/SchemaConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/StringConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/TypeCheck/LooseTypeCheck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/TypeCheck/StrictTypeCheck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/TypeCheck/TypeCheckInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/TypeConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Constraints/UndefinedConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Entity/JsonPointer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/InvalidConfigException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/InvalidSchemaException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/InvalidSchemaMediaTypeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/InvalidSourceUriException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/JsonDecodingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/ResourceNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/RuntimeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/UnresolvableJsonPointerException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/UriResolverException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Exception/ValidationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Iterator/ObjectIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Rfc3339.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/SchemaStorage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/SchemaStorageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/AbstractRetriever.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/Curl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/FileGetContents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/PredefinedArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/Retrievers/UriRetrieverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/UriResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Uri/UriRetriever.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/UriResolverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/UriRetrieverInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/justinrainbow/json-schema/src/JsonSchema/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/src/getallheaders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders/tests/GetAllHeadersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/bin/jsonlint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/src/Seld/JsonLint/DuplicateKeyException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/src/Seld/JsonLint/JsonParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/src/Seld/JsonLint/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/src/Seld/JsonLint/ParsingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/src/Seld/JsonLint/Undefined.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/tests/JsonParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/tests/bom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/jsonlint/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/seld/phar-utils/src/Timestamps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/FileNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/IOException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/IOExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/ExceptionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/Fixtures/MockStream/MockStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/controller.stub" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/controller.stub" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.501046">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="203">
+                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-72">
+                  <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#41#62#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="403">
+                  <caret line="173" column="39" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#41#62#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Models/BlockTest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1037">
+                  <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1938">
+                  <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#41#62#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/CKEditor.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/test/index.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/MultiTree.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#32#44#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Grid/Displayers/Select.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="32" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.50113636">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="269">
+                      <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="232">
+                      <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/routes/web.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="187">
+                      <caret line="20" column="19" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="19" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/resources/views/blocks/test.blade.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state>
+                      <caret lean-forward="true" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Grid/Displayers/Modal.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="629">
+                      <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockSampleController.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="335">
+                      <caret line="139" selection-start-line="139" selection-end-line="139" />
+                      <folding>
+                        <element signature="e#41#68#0#PHP" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Sortable.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="375">
+                      <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="25" />
+                      <folding>
+                        <element signature="e#43#67#0#PHP" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1207">
+                      <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="554">
+                      <caret line="46" selection-start-line="46" selection-end-line="46" />
+                      <folding>
+                        <element signature="e#30#67#0#PHP" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>table-fields</find>
+      <find>$k+1</find>
+      <find>register</find>
+      <find>localhost</find>
+      <find>Slider</find>
+      <find>alias</find>
+      <find>edit(</find>
+      <find>getFie</find>
+      <find>get(</find>
+      <find>Sessio</find>
+      <find>block_target</find>
+      <find>delete</find>
+      <find>block_delete</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$k</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/resources/views/scaffold.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/TestController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/--Editor.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/ckeditor.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/CKEditor.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Editor.php" />
+        <option value="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/transliterator.js" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/alias.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Alias.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/controller.stub" />
+        <option value="$PROJECT_DIR$/app/Models/Cats.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits/ModelMultiTree.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/MultiTree.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/CatsController.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form.php" />
+        <option value="$PROJECT_DIR$/app/Admin/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/test/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/BlockController.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/BlockSampleController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Category.php" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Sortable.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php" />
+        <option value="$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Models/BlockTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/blocks/test.blade.php" />
+        <option value="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js" />
+        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/barryvdh" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/api-tester" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1985" />
+    <option name="y" value="211" />
+    <option name="width" value="1272" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="NBKnowledgePane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laradev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laradev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/vendor/laravel-admin/uretral" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/vendor/laravel-admin/uretral" />
+      <recent name="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field" />
+      <recent name="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits" />
+      <recent name="$PROJECT_DIR$/vendor/encore/laravel-admin/src" />
+      <recent name="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b281befd-eafa-4232-8d62-5aa0fe76baef" name="Default Changelist" comment="" />
+      <created>1556397780998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556397780998</updated>
+      <workItem from="1556397785610" duration="15488000" />
+      <workItem from="1556460660373" duration="48425000" />
+      <workItem from="1556874476797" duration="35482000" />
+      <workItem from="1556952153171" duration="24435000" />
+      <workItem from="1556998713390" duration="18816000" />
+    </task>
+    <task id="LOCAL-00001" summary="first pass All clean">
+      <created>1556401939491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556401939493</updated>
+    </task>
+    <task id="LOCAL-00002" summary="scaffold table">
+      <created>1556409869390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556409869390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="scaffold table">
+      <created>1556410531455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556410531455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="intervention">
+      <created>1556465228475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556465228475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ckeditor">
+      <created>1556471194150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556471194150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="142646000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17129135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.17364016" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.10564853" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.18569905" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first pass All clean" />
+    <MESSAGE value="scaffold table" />
+    <MESSAGE value="intervention" />
+    <MESSAGE value="ckeditor" />
+    <option name="LAST_COMMIT_MESSAGE" value="ckeditor" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Editor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits/ModelTree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#39#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits/ModelMultiTree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#39#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Tree/Tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-733">
+          <caret line="571" column="12" selection-start-line="571" selection-start-column="12" selection-end-line="571" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Tree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3290">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/alias.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Cats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#30#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CatsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/select.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="149" column="95" lean-forward="true" selection-start-line="149" selection-start-column="95" selection-end-line="149" selection-end-column="95" />
+          <folding>
+            <element signature="e#43#74#0#PHP" expanded="true" />
+            <element signature="e#821#1477#0#PHP" />
+            <element signature="e#8336#8441#0#PHP" />
+            <element signature="e#8484#9294#0#PHP" />
+            <element signature="e#9337#10336#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4396">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/input.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/ckeditor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Grid/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10438">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/grid/displayer/table.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/PendingResourceRegistration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="314" column="20" selection-start-line="314" selection-start-column="20" selection-end-line="314" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2961" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1641" column="42" selection-start-line="1641" selection-start-column="36" selection-end-line="1641" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10744">
+          <caret line="653" column="34" selection-start-line="653" selection-start-column="15" selection-end-line="653" selection-end-column="34" />
+          <folding>
+            <element signature="e#7#37#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1073" selection-start-line="1073" selection-end-line="1076" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding>
+            <element signature="e#41#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/CKEditor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/test/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/MultiTree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#32#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Grid/Displayers/Select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Grid/Displayers/Modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockSampleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BlockSample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#30#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Form/Field/Sortable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#43#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/nestable/nestable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="127" column="48" lean-forward="true" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+          <folding>
+            <element signature="e#41#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="173" column="39" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
+          <folding>
+            <element signature="e#41#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blocks/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BlockTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

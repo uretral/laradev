@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,8 +9,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+
+Route::get('/tratra', '\App\Admin\Controllers\BlockTestControllers@block');
 Route::any('/attach', 'ImageController@attach');
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', 'TestController@index');
+Route::get('/blocks/{alias}/{id}', '\App\Admin\Controllers\CategoryController@block');
+
+
