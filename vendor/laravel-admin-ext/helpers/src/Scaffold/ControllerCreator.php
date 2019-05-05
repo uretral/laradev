@@ -2,6 +2,9 @@
 
 namespace Encore\Admin\Helpers\Scaffold;
 
+use App\Models\Block;
+use Illuminate\Http\Request;
+
 class ControllerCreator
 {
     /**
@@ -10,6 +13,7 @@ class ControllerCreator
      * @var string
      */
     protected $name;
+
 
     /**
      * The filesystem instance.
@@ -30,6 +34,7 @@ class ControllerCreator
 
         $this->files = $files ?: app('files');
     }
+
 
     /**
      * Create a controller.
@@ -123,6 +128,18 @@ class ControllerCreator
      */
     public function getStub()
     {
-        return __DIR__.'/stubs/controller.stub';
+        $name = $_POST['table_mode'];
+
+        if($name == 'block_controller'){
+           $block = new Block;
+            $block->controller = substr($_POST['controller_name'], 22);
+            $block->model = $_POST['model_name'];
+            $block->name = $_POST['block_name'];
+            $block->url = $_POST['block_alias'];
+            $block->save();
+        }
+
+
+        return __DIR__.'/stubs/'.$name.'.stub';
     }
 }

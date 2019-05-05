@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', 'TestController@index');
+Route::get('/category','\App\Admin\Controllers\CategoryController@page');
 Route::get('/blocks/{alias}/{id}', '\App\Admin\Controllers\CategoryController@block');
 
 

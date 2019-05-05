@@ -1,4 +1,4 @@
 
-this is test template
+this is test template<br/>
+{{$data->name}}
 
-@dump($data->name)

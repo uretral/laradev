@@ -173,4 +173,18 @@ class CategoryController extends Controller
         $data = $block->model::where('id',$id)->first();
         return BlockTest::block($data);
     }
+
+    public function page(){
+        $row = Category::where('id','1')->first();
+        $arJson = json_decode($row->source);
+        $data = '';
+        foreach ($arJson as $i){
+            $data .= $this->block($i->url,$i->id);
+        }
+
+        return view('category-pages.mono',[
+            'data' => $data
+        ]);
+
+    }
 }

@@ -61,12 +61,58 @@
 
                 </div>
 
+
+
+                <h4>Тип:</h4>
+                <hr />
+                <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-11">
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" checked value="controller"  name="table_mode" /> Пустая
+                            </label>
+                            <label>
+                                <input type="radio"  value="resource_controller" name="table_mode" /> Ресурсная
+                            </label>
+                            <label>
+                                <input type="radio"  value="block_controller" name="table_mode" /> Блок
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
                 <hr />
 
-                <h4>Fields</h4>
+
+
+
+                <div class="form-horizontal" id="block_fields" style="display: none;">
+                    <h4>Доп поля для блока:</h4>
+                    <hr />
+                    <br/>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Название блока</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="block_name" class="form-control" placeholder="Название блока" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Алиас блока</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="block_alias" class="form-control" placeholder="Алиас блока" value="">
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+
+
+                <h4>Поля таблицы</h4>
+
+
 
                 <table class="table table-hover" id="table-fields">
-                    <tbody>
+                    <thead>
                     <tr>
                         <th style="width: 200px">Field name</th>
                         <th>Type</th>
@@ -76,41 +122,46 @@
                         <th>Comment</th>
                         <th>Action</th>
                     </tr>
+                    </thead>
+                    <tbody>
 
 
-                    @php
-                        $uFields = array(
-                            array('name' => 'alias','type' => 'string'),
-                            array('name' => 'parent','type' => 'integer'),
-                            array('name' => 'name','type' => 'string'),
-                            array('name' => 'intro_img','type' => 'string'),
-                            array('name' => 'intro','type' => 'text'),
-                            array('name' => 'detail_img','type' => 'string'),
-                            array('name' => 'detail','type' => 'text'),
-                            array('name' => 'seo_title','type' => 'text'),
-                            array('name' => 'seo_desc','type' => 'text'),
-                            array('name' => 'seo_key','type' => 'text'),
-                        )
-                    @endphp
-                    @if(!old('fields'))
-                    @foreach($uFields as $k => $uField)
-                        <tr>
-                            <td>
-                                <input type="text" readonly  name="fields[{{$k}}][name]" class="form-control"  value="{{$uField['name']}}" />
-                            </td>
-                            <td>
-                                <input type="text" readonly name="fields[{{$k}}][type]" class="form-control"  value="{{$uField['type']}}" />
-                            </td>
-                            <td><input type="checkbox" name="fields[{{$k}}][nullable]" checked /></td>
-                            <td>
-                                <input type="text" readonly name="fields[{{$k}}][key]" class="form-control"  value="" />
-                            </td>
-                            <td><input type="text" class="form-control" placeholder="default value" name="fields[{{$k}}][default]" value=""/></td>
-                            <td><input type="text" class="form-control" placeholder="comment" name="fields[{{$k}}][comment]" value="" /></td>
-                            <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
-                        </tr>
-                    @endforeach
-                    @endif
+
+{{--                    @php--}}
+{{--                        $uFields = array(--}}
+{{--                            array('name' => 'alias','type' => 'string'),--}}
+{{--                            array('name' => 'parent','type' => 'integer'),--}}
+{{--                            array('name' => 'name','type' => 'string'),--}}
+{{--                            array('name' => 'intro_img','type' => 'string'),--}}
+{{--                            array('name' => 'intro','type' => 'text'),--}}
+{{--                            array('name' => 'detail_img','type' => 'string'),--}}
+{{--                            array('name' => 'detail','type' => 'text'),--}}
+{{--                            array('name' => 'seo_title','type' => 'text'),--}}
+{{--                            array('name' => 'seo_desc','type' => 'text'),--}}
+{{--                            array('name' => 'seo_key','type' => 'text'),--}}
+{{--                        )--}}
+{{--                    @endphp--}}
+{{--                    @if(!old('fields'))--}}
+{{--                    @foreach($uFields as $k => $uField)--}}
+{{--                        <tr>--}}
+{{--                            <td>--}}
+{{--                                <input type="text" readonly  name="fields[{{$k}}][name]" class="form-control"  value="{{$uField['name']}}" />--}}
+{{--                            </td>--}}
+{{--                            <td>--}}
+{{--                                <input type="text" readonly name="fields[{{$k}}][type]" class="form-control"  value="{{$uField['type']}}" />--}}
+{{--                            </td>--}}
+{{--                            <td><input type="checkbox" name="fields[{{$k}}][nullable]" checked /></td>--}}
+{{--                            <td>--}}
+{{--                                <input type="text" readonly name="fields[{{$k}}][key]" class="form-control"  value="" />--}}
+{{--                            </td>--}}
+{{--                            <td><input type="text" class="form-control" placeholder="default value" name="fields[{{$k}}][default]" value=""/></td>--}}
+{{--                            <td><input type="text" class="form-control" placeholder="comment" name="fields[{{$k}}][comment]" value="" /></td>--}}
+{{--                            <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>--}}
+{{--                        </tr>--}}
+{{--                    @endforeach--}}
+{{--                    @endif--}}
+
+
                     @if(old('fields'))
                         @foreach(old('fields') as $index => $field)
                             <tr>
@@ -127,7 +178,7 @@
                                 <td><input type="checkbox" name="fields[{{$index}}][nullable]" {{ array_get($field, 'nullable') == 'on' ? 'checked': '' }}/></td>
                                 <td>
                                     <select style="width: 150px" name="fields[{{$index}}][key]">
-                                        {{--<option value="primary">Primary</option>--}}
+                                        <option value="primary">Primary</option>
                                         <option value="" {{$field['key'] == '' ? 'selected' : '' }}>NULL</option>
                                         <option value="unique" {{$field['key'] == 'unique' ? 'selected' : '' }}>Unique</option>
                                         <option value="index" {{$field['key'] == 'index' ? 'selected' : '' }}>Index</option>
@@ -139,6 +190,7 @@
                             </tr>
                         @endforeach
                     @endif
+
                     </tbody>
                 </table>
 
@@ -146,6 +198,8 @@
                 <hr style="margin-top: 0;"/>
 
                 <div class='form-inline margin' style="width: 100%">
+
+                    <input type="hidden" id="stub_name"  value="controller"/>
 
 
                     <div class='form-group'>
@@ -241,6 +295,28 @@
     </tr>
 </template>
 
+<template id="table-predefined-tpl">
+    <tr>
+        <td>
+            <input type="text" readonly name="fields[__index__][name]" value="__name__" class="form-control" placeholder="field name" />
+        </td>
+        <td>
+            <input type="text" readonly name="fields[__index__][type]" value="__type__" class="form-control" placeholder="field name" />
+        </td>
+        <td><input type="checkbox" checked disabled name="fields[__index__][nullable]" /></td>
+        <td>
+            <select style="width: 150px"  name="fields[__index__][key]">
+                <option value="" selected>NULL</option>
+                <option value="unique">Unique</option>
+                <option value="index">Index</option>
+            </select>
+        </td>
+        <td><input type="text" class="form-control" placeholder="default value" name="fields[__index__][default]"></td>
+        <td><input type="text" class="form-control" placeholder="comment" name="fields[__index__][comment]"></td>
+        <td><a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"></i> remove</a></td>
+    </tr>
+</template>
+
 <template id="model-relation-tpl">
     <tr>
         <td><input type="text" class="form-control" placeholder="relation name" value=""></td>
@@ -255,7 +331,7 @@
         <td><input type="text" class="form-control" placeholder="related model"></td>
         <td><input type="text" class="form-control" placeholder="default value"></td>
         <td><input type="text" class="form-control" placeholder="default value"></td>
-        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
         <td><a class="btn btn-sm btn-danger model-relation-remove"><i class="fa fa-trash"></i> remove</a></td>
     </tr>
 </template>
@@ -263,6 +339,94 @@
 <script>
 
 $(function () {
+    let tables = {
+        'resource_controller' : [{
+            'name': 'alias',
+            'type': 'string',
+            'default': true,
+        }, {
+            'name': 'parent',
+            'type': 'integer',
+            'default': true,
+        }, {
+            'name': 'sort',
+            'type': 'integer',
+            'default': true,
+        }, {
+            'name': 'name',
+            'type': 'string',
+            'default': true,
+        }, {
+            'name': 'intro_img',
+            'type': 'string',
+            'default': false,
+        },{
+            'name': 'intro',
+            'type': 'text',
+            'default': false,
+        },{
+            'name': 'detail_img',
+            'type': 'string',
+            'default': false,
+        },{
+            'name': 'detail',
+            'type': 'text',
+            'default': false,
+        },{
+            'name': 'seo_title',
+            'type': 'text',
+            'default': false,
+        },{
+            'name': 'seo_desc',
+            'type': 'text',
+            'default': false,
+        },{
+            'name': 'seo_key',
+            'type': 'text',
+            'default': false,
+        }],
+        'block_controller' : [{
+            'name': 'parent',
+            'type': 'integer',
+            'default': true,
+        }, {
+            'name': 'name',
+            'type': 'string',
+            'default': true,
+        }, {
+            'name': 'nr',
+            'type': 'integer',
+            'default': true,
+        }],
+        'controller' : []
+    }
+
+    $(document).on('change','[name="table_mode"]',function(){
+        $('#table-fields tbody').html('');
+        if($(this).val() == 'block_controller'){
+            $('#block_fields').show()
+            $('#inputModelName').val('App\\Models\\Blocks\\');
+            $('#inputControllerName').val('App\\Admin\\Controllers\\Blocks\\Controller');
+        } else {
+            $('#block_fields').hide()
+            $('#inputModelName').val('App\\Models\\');
+            $('#inputControllerName').val('App\\Admin\\Controllers\\Controller');
+        }
+
+
+        let fields = tables[$(this).val()];
+        for(var i = 0, len = fields.length; i < len; i++) {
+            $('#table-fields tbody').append($('#table-predefined-tpl').html()
+                .replace(/__index__/g, $('#table-fields tr').length - 1)
+                .replace(/__name__/g, fields[i].name)
+                .replace(/__type__/g, fields[i].type)
+                .replace(fields[i].default ? /<a class="btn btn-sm btn-danger table-field-remove"><i class="fa fa-trash"><\/i> remove<\/a>/g : '', '')
+            );
+            $('select').select2();
+            $('input[type=checkbox]').iCheck({checkboxClass:'icheckbox_minimal-blue'});
+        }
+    });
+
 
     $('input[type=checkbox]').iCheck({checkboxClass:'icheckbox_minimal-blue'});
     $('select').select2();

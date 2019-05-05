@@ -26,16 +26,6 @@ $(document).ready(function()
         let url = $(this).val();
         let res = $('#block_target').attr('rel');
 
-/*        let item = `<li class="dd-item dd3-item"
-                        data-name="`+name+`"
-                        data-url="`+url+`"
-                        data-nr="`+itemNr+`"
-                    >
-                       <div class="dd-handle dd3-handle"></div>
-                        <div class="dd3-content">`+name+` ( `+itemNr+`)</div>
-                    </li>`;
-
-        $('.dd-list').append(item);*/
         window.blocks = window.JSON.stringify($('.dd').nestable('serialize'));
 
         $.ajax({
@@ -49,8 +39,8 @@ $(document).ready(function()
         });
 
 
-
         $('#blocks_json').val(window.blocks);
+
         console.log($('#blocks_json').val());
     });
 
@@ -64,6 +54,7 @@ $(document).ready(function()
             $('.modal-title').html($(this).attr('data-name') + ' блок');
             $('.grid-expand').click();
         });
+        console.log($('#blocks_json').val());
     });
 
     $(document).on('click','.block_view',function(){
@@ -81,6 +72,7 @@ $(document).ready(function()
             $(nest).html(data);
 
         });
+        console.log($('#blocks_json').val());
     });
     $(document).on('click','.block_viewed',function(){
         $(this).removeClass('block_viewed');
@@ -88,6 +80,7 @@ $(document).ready(function()
         let nest = $('#nest_'+$(this).attr('data-code'));
         $(nest).html('');
         $(this).text('Просмотр');
+        console.log($('#blocks_json').val());
     });
 
 
@@ -117,7 +110,6 @@ $(document).ready(function()
                         success: function (data) {
 
                             $.pjax({container:'#pjax-container', url: location.href });
-
                             resolve(data);
                             location.reload();
                         }
@@ -135,24 +127,7 @@ $(document).ready(function()
             }
         });
 
-
-
-
-
-
     });
-
-
-
-    // $(document).on('change','#new_block',function(){
-    //     let itemNr = Number($('.dd3-item').length) + 1;
-    //     let item = '<li class="dd-item dd3-item" data-id="'+itemNr+'"><div class="dd-handle dd3-handle"></div><div class="dd3-content">Block '+itemNr+'</div></li>';
-    //     $('.dd-list').append(item);
-    //     window.blocks = window.JSON.stringify($('.dd').nestable('serialize'));
-    //         console.log(window.blocks);
-    // });
-
-
 });
 
 

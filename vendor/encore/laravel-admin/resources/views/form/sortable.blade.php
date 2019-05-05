@@ -7,11 +7,6 @@
     <div class="col-sm-8">
 
 
-
-
-{{--@dump(json_decode($value))--}}
-{{--@dump($options['resource'])--}}
-
         <div class="dd dd-wide">
             <ol class="dd-list">
                 @isset($value)
@@ -60,7 +55,7 @@
 
 
         @include('admin::form.error')
-        <input type="hidden" id="blocks_json" name="{{$name}}"/>
+        <input type="hidden" id="blocks_json" name="{{$name}}" value="{{$value}}"/>
         @include('admin::form.help-block')
 
 
