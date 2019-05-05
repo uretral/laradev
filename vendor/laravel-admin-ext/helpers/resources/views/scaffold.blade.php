@@ -414,6 +414,7 @@ $(function () {
         }
 
 
+
         let fields = tables[$(this).val()];
         for(var i = 0, len = fields.length; i < len; i++) {
             $('#table-fields tbody').append($('#table-predefined-tpl').html()
