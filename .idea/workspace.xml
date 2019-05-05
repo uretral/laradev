@@ -6,17 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b281befd-eafa-4232-8d62-5aa0fe76baef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/category-pages/mono.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/block_controller.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/resource_controller.stub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blocks/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blocks/test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/resources/views/scaffold.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/resources/views/scaffold.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/ControllerCreator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/ControllerCreator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +46,7 @@
             <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/resources/views/scaffold.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="19">
-                  <caret line="414" lean-forward="true" selection-start-line="414" selection-end-line="414" />
+                  <caret line="414" selection-start-line="414" selection-end-line="414" />
                   <folding>
                     <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -71,7 +61,7 @@
             <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/resource_controller.stub">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="146">
-                  <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+                  <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -80,7 +70,7 @@
             <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/block_controller.stub">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                  <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -96,7 +86,7 @@
             <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/ControllerCreator.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="185">
-                  <caret line="138" column="27" lean-forward="true" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
+                  <caret line="138" column="27" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
                   <folding>
                     <element signature="e#49#70#0#PHP" expanded="true" />
                   </folding>
@@ -134,8 +124,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="170">
-                      <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+                    <state relative-caret-position="136">
+                      <caret line="55" selection-start-line="55" selection-end-line="55" />
                     </state>
                   </provider>
                 </entry>
@@ -201,7 +191,7 @@
                 <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="891">
-                      <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+                      <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
                       <folding>
                         <element signature="e#41#62#0#PHP" expanded="true" />
                       </folding>
@@ -217,7 +207,7 @@
                 <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="204">
-                      <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                      <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                     </state>
                   </provider>
                 </entry>
@@ -623,7 +613,7 @@
       <workItem from="1556460660373" duration="48425000" />
       <workItem from="1556874476797" duration="35482000" />
       <workItem from="1556952153171" duration="24435000" />
-      <workItem from="1556998713390" duration="45757000" />
+      <workItem from="1556998713390" duration="46257000" />
     </task>
     <task id="LOCAL-00001" summary="first pass All clean">
       <created>1556401939491</created>
@@ -667,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557050436853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nestable constructor slight ready">
+      <created>1557078793143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557078793143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169587000" />
+    <option name="totallyTimeSpent" value="170087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -696,7 +693,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32177162" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.506937" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -709,7 +706,8 @@
     <MESSAGE value="intervention" />
     <MESSAGE value="ckeditor" />
     <MESSAGE value="nestable constructor pre ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="nestable constructor pre ready" />
+    <MESSAGE value="nestable constructor slight ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="nestable constructor slight ready" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CatsController.php">
@@ -1023,7 +1021,7 @@
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BlockTestControllers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
-          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+          <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
           <folding>
             <element signature="e#41#62#0#PHP" expanded="true" />
           </folding>
@@ -1033,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/block_controller.stub">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1064,7 +1062,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/ControllerCreator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="138" column="27" lean-forward="true" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
+          <caret line="138" column="27" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="27" />
           <folding>
             <element signature="e#49#70#0#PHP" expanded="true" />
           </folding>
@@ -1079,14 +1077,14 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/src/Scaffold/stubs/resource_controller.stub">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+          <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel-admin-ext/helpers/resources/views/scaffold.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="414" lean-forward="true" selection-start-line="414" selection-end-line="414" />
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -1106,14 +1104,14 @@
     <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+        <state relative-caret-position="136">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
