@@ -6,7 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b281befd-eafa-4232-8d62-5aa0fe76baef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cv05345_laradev.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_28_131453_create_tests_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_28_181404_create_cats_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_30_183630_create_block_tests_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_30_183730_create_block_samples_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_05_144645_create_rrrrr_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_05_145506_create_wwwww_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_05_151804_create_wwwww_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_05_171800_create_block_lena_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_05_172431_create_block_lena_table.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +28,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.1">
+    <splitter split-orientation="vertical" split-proportion="0.32217574">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -124,8 +134,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="136">
-                      <caret line="55" selection-start-line="55" selection-end-line="55" />
+                    <state relative-caret-position="374">
+                      <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
                     </state>
                   </provider>
                 </entry>
@@ -206,7 +216,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
+                    <state relative-caret-position="935">
                       <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                     </state>
                   </provider>
@@ -437,113 +447,6 @@
               <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
               <item name="laradev" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="category-pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scaffold" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laradev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laradev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin-ext" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scaffold" type="462c0819:PsiDirectoryNode" />
-              <item name="stubs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -613,7 +516,7 @@
       <workItem from="1556460660373" duration="48425000" />
       <workItem from="1556874476797" duration="35482000" />
       <workItem from="1556952153171" duration="24435000" />
-      <workItem from="1556998713390" duration="46257000" />
+      <workItem from="1556998713390" duration="47614000" />
     </task>
     <task id="LOCAL-00001" summary="first pass All clean">
       <created>1556401939491</created>
@@ -664,17 +567,30 @@
       <option name="project" value="LOCAL" />
       <updated>1557078793143</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="nestable constructor slight ready">
+      <created>1557079041963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557079041963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nestable constructor slight ready">
+      <created>1557079076647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557079076647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170087000" />
+    <option name="totallyTimeSpent" value="171444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25933832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -693,7 +609,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.506937" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.506937" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -1103,15 +1019,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/uretral/sortable.page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="935">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/resources/views/form/sortable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="374">
+          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
